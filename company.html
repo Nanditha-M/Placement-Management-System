@@ -1,0 +1,42 @@
+<head>
+	<title>Company Form Design</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+    function passvalues()
+        {
+            var firstname=document.getElementById("text"),value;
+            localstorage.setItem("textvalue",firstname);
+            return false;
+        }
+    
+    
+    </script>>
+    </head>
+<body>
+	<div class="company-details">
+	<img src="avatar.png" class="avatar">
+		<div class="form">
+		<form action="ViewCompany.html">
+			<form class="Login-form">
+			<h1>Company Details</h1>
+			<p>Company Name</p>
+			<input type="text" name="t1" placeholder="Enter Company Name" required>
+			<p>Company ID</p>
+			<input type="text" name="t2" placeholder="Enter Company ID" required>
+			<p>Address</p>
+			<input type="text" name="t3" placeholder="Enter Address" required>
+			<p>package</p>
+			<input type="text" name="t4" placeholder="Enter Department" required>
+			<p>Grade</p>
+			<input type="text" name="t5" placeholder="Enter Grade" required>
+			<p>Contact no.</p>
+			<input type="text" name="t6" placeholder="Enter Contact number" required>
+			<input type="submit" name="" value="Save" onclick="passvalues();">
+			
+			<button type="submit"><a href="companyhome.html">Back</a></button>
+			</form>
+			</form>
+			</div>
+			</body>
+
+</html>
